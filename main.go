@@ -32,7 +32,7 @@ func main() {
 					Flags: []cli.Flag{
 						cli.StringFlag{
 							Name:  "server, s",
-							Usage: "Jenkins server",
+							Usage: "Jenkins server : http(s)://server[:port]",
 						},
 						cli.StringFlag{
 							Name:  "username, u",
@@ -68,7 +68,7 @@ func main() {
 					Flags: []cli.Flag{
 						cli.StringFlag{
 							Name:  "server, s",
-							Usage: "Jenkins server",
+							Usage: "Jenkins server : http(s)://server[:port]",
 						},
 						cli.StringFlag{
 							Name:  "username, u",
@@ -109,7 +109,7 @@ func main() {
 					Flags: []cli.Flag{
 						cli.StringFlag{
 							Name:  "server, s",
-							Usage: "Jenkins server",
+							Usage: "Jenkins server : http(s)://server[:port]",
 						},
 						cli.StringFlag{
 							Name:  "username, u",
@@ -145,7 +145,7 @@ func main() {
 					Flags: []cli.Flag{
 						cli.StringFlag{
 							Name:  "server, s",
-							Usage: "Jenkins server",
+							Usage: "Jenkins server : http(s)://server[:port]",
 						},
 						cli.StringFlag{
 							Name:  "username, u",
