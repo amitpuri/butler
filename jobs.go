@@ -86,7 +86,7 @@ func ExportJob(job Job, username string, password string) error {
 }
 
 func GetJobs(server string, username string, password string) ([]Job, error) {
-	url := fmt.Sprintf("%s/view/all/api/xml", server)
+	url := fmt.Sprintf("%s/view/All/api/xml", server)
 
 	client := &http.Client{}
 	req, err := http.NewRequest("GET", url, nil)
